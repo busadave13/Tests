@@ -1,0 +1,13 @@
+{
+  "base_url": "http://staging.example.com",
+  "vus": 20,
+  "duration": "60s",
+  "thresholds": {
+    "error_rate": 0.02,
+    "p95_latency": 750
+  },
+  "features": {
+    "prometheus_export": true,
+    "detailed_logging": true
+  }
+}

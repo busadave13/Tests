@@ -1,0 +1,11 @@
+{
+  "name": "podinfo",
+  "target_url": "http://podinfo-canary.podinfo:9898",
+  "endpoints": {
+    "health": "/healthz",
+    "ready": "/readyz",
+    "root": "/"
+  },
+  "default_vus": 5,
+  "default_duration": "30s"
+}
