@@ -1,0 +1,13 @@
+{
+  "base_url": "http://api.example.com",
+  "vus": 50,
+  "duration": "60s",
+  "thresholds": {
+    "error_rate": 0.01,
+    "p95_latency": 500
+  },
+  "features": {
+    "prometheus_export": true,
+    "detailed_logging": false
+  }
+}
